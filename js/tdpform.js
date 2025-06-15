@@ -10,7 +10,7 @@ function tdpForm() {
     document.head.appendChild(placeholderStyle);
   }
   let str = `
-    <div class="container mt-4" style="max-width: 1200px;">
+    <div class="container mt-4" style="max-width: 100%;">
       <div class="d-flex justify-content-between mb-3">
         <button class="btn btn-light border-dark fw-bold shadow-sm" onclick="toggleAllAccordions()" id="toggleAccordionsBtn">Close All Sections</button>
       </div>
@@ -31,7 +31,7 @@ function tdpForm() {
     <!-- Section 1 -->
         <div class="accordion-item shadow-lg border border-dark mb-4">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSection1" aria-expanded="true" aria-controls="collapseSection1">
               1. Primary Details
             </button>
           </h2>
@@ -56,7 +56,7 @@ function tdpForm() {
     <!-- Section 2 -->
         <div class="accordion-item shadow-lg border border-dark mb-4">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSection2" aria-expanded="false" aria-controls="collapseSection2">
               2. Ongoing TDP / Advanced R & D (As a PI/CO-PI)
             </button>
           </h2>
@@ -72,7 +72,7 @@ function tdpForm() {
     <!-- Section 3 -->
         <div class="accordion-item shadow-lg border border-dark mb-4">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button collapsed bg-light text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSection3" aria-expanded="false" aria-controls="collapseSection3">
               3. Brief Description of the Study
             </button>
           </h2>
